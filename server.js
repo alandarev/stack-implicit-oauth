@@ -1,9 +1,8 @@
-var SIO = require('./index.js');
-var sio = new SIO();
+var sio = require('./index.js');
 sio.authorize(3604, authorized);
 
-function authorized(err, tokens)  {
+function authorized(err, response)  {
   if(err) return console.log(err);
-  console.log(tokens);
+  console.log("authorized:");
+  console.log(response);
 }
-console.log("Finished");
