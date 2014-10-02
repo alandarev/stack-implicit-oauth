@@ -1,0 +1,11 @@
+{
+  "name": "stack-implicit-oauth",
+  "version": "0.0.1",
+  "description": "Implicit authentication with any Stack Exchange using client's default browser",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "open": "0.0.5"
+  }
+}
