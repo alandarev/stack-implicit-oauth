@@ -1,4 +1,3 @@
-var bla = 1;
 var params = window.location.hash.substring(1);
 if (params && params.length > 0)  {
   var xmlhttp=new XMLHttpRequest();
