@@ -27,6 +27,7 @@ The down-sides of implementing a browser into your application without necessity
 * User has to authenticate to the Stack Overflow site inside of built-in browser, before approving your application:
   * Does user remember the password?
   * Can user trust your application the password?
+  * What is the point of OAuth then?
 
 ## Solution
 We still cannot use OAuth explicit method without exposing server key, but there is a workaround in implicit authentication:
