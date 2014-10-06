@@ -36,5 +36,8 @@ We still cannot use OAuth explicit method without exposing server key, but there
 * Extract the received data from Stack Exchange using JavaScript and post it to the `localhost` server.
 * Close the tab in a browser
 
+## License
+[GPL v3]
 
 [1]:http://stackapps.com/apps/oauth
+[GPL v3]:LICENSE
